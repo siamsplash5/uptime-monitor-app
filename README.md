@@ -1,6 +1,6 @@
 # Uptime Monitor App
 
-The Uptime Monitor App is a Node.js application that monitors the status of up to 5 websites, and sends notifications to users about the current status (up or down) of the websites. Users can receive notifications via SMS, and can log in/sign up to manage their personal data.
+The Uptime Monitor App is a Node.js application that monitors the status of up to 5 websites, and sends notifications to users about the current status (up or down) of the websites. Users can receive notifications via SMS, and can log in/sign up to manage their personal data. Special thanks to "Learn with Sumit".
 
 ## Key Features:
 
