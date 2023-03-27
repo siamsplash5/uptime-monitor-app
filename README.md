@@ -1,16 +1,30 @@
-# uptime-monitor-app
+# Uptime Monitor App
 
-A uptime monitor app which will notify the user about the status of websites (It's currently up or down) and can send the update as a SMS to user's phone number.
-I've did this project by watching "Learn with Sumit" youtube channel for my practice purpose and to clear the core concept of raw Node.js.
+The Uptime Monitor App is a Node.js application that monitors the status of up to 5 websites, and sends notifications to users about the current status (up or down) of the websites. Users can receive notifications via SMS, and can log in/sign up to manage their personal data.
 
-Key functionalites:
+## Key Features:
 
-1. User can Log In/Sign Up with his phone number.
-2. User can do CRUD operation on his personal data.
-3. User will receive a token after log in, which will be used for authentication in CRUD operation. Token will expire after 1hour. Then user have to log in again.
-4. User can add website for monitoring. (Maximum allowed 5)
-5. User will receive the current status (up or down) of the websites.
-6. User can receive SMS on his phone number about the status update. I've used Twilio for this feature (SMS charge applicable).
-7. For database, I used my PC's file system as a database. This is not a suitable option for real life but I did for learning purpose and to clear the raw node.js concept.
+* User authentication: Users can sign up and log in to the application using their phone numbers, and receive authentication tokens for secure access to CRUD operations on their personal data.
+* CRUD Operations: Users can create, read, update, and delete their personal data, including the websites they want to monitor.
+* Website monitoring: Users can add up to 5 websites for monitoring, and receive notifications about their current status (up or down).
+* SMS Notifications: Users can receive SMS notifications about the status of their monitored websites, using the Twilio API.
+* Database: The application uses the local file system on the user's computer as a database, for learning purposes only.
 
-There is no front end. I've future plan to add a front-end to eat to make it practical. I'll update it as soon as I complete React.js.
+Note: This application currently does not have a front-end interface, but plans to implement a front-end using React.js are underway.
+
+## Getting Started:
+
+To get started with the Uptime Monitor App:
+
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. Set up a Twilio account to enable SMS notifications.
+4. Start the application by running `npm start`.
+
+## Contributing:
+
+If you have suggestions for improving the Uptime Monitor App, feel free to submit a pull request or open an issue. We welcome contributions from the community!
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
