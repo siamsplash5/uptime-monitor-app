@@ -1,0 +1,19 @@
+{
+    "license": "UNLICENSED",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "react": "^18.2.0"
+    },
+    "scripts": {
+        "start": "SET NODE_ENV=staging& nodemon index",
+        "production": "SET NODE_ENV=production& nodemon index"
+    },
+    "devDependencies": {
+        "eslint": "8.2.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-plugin-import": "2.25.2",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.4"
+    }
+}
